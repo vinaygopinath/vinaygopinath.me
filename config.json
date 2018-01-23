@@ -1,0 +1,62 @@
+{
+  "baseURL": "https://vinaygopinath.me/",
+  "languageCode": "en-gb",
+  "title": "Vinay Gopinath",
+  "theme": "vinaygopinath.me",
+  "metaDataFormat": "yaml",
+  "paginate": 5,
+  "googleAnalytics": "",
+  "enableRobotsTXT": true,
+  "pygmentsCodeFences": true,
+  "disqusShortName": "vinaygopinath",
+  "sitemap": {
+    "changefreq": "weekly",
+    "priority": 0.5,
+    "filename": "sitemap.xml"
+  },
+  "params": {
+    "favicon": "",
+    "description": "Adventures with technology and travel",
+    "recent_posts_number": 4
+  },
+  "menu": {
+    "main": [
+      {
+        "name": "Tech",
+        "identifier": "tech",
+        "url": "/categories/tech/",
+        "weight": 1
+      },
+      {
+        "name": "Travel",
+        "identifier": "travel",
+        "url": "/categories/travel/",
+        "weight": 2
+      },
+      {
+        "name": "Misc",
+        "identifier": "everything-else",
+        "url": "/categories/everything-else/",
+        "weight": 3
+      },
+      {
+        "name": "Work",
+        "identifier": "work",
+        "url": "/work",
+        "weight": 4
+      },
+      {
+        "name": "About",
+        "identifier": "about",
+        "url": "/about",
+        "weight": 5
+      },
+      {
+        "name": "Contact",
+        "identifier": "contact",
+        "url": "/contact",
+        "weight": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&subset=latin-ext');
+
+html, body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Hind', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20vh;
+  max-width: 100%;
+  padding-bottom: 10vh;
+}
+
+.header {
+  border: 0;
+  border-style: solid;
+  border-color: black;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  padding: 5.5rem 0;
+}
+
+.title {
+  font-size: 3rem;
+  line-height: 1.92rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+.description {
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.25rem;
+}
+
+ul {
+  display: flex;
+  margin-bottom: 0;
+  list-style: none;
+  padding-left: 0;
+  margin-top: calc(3.5rem + 1px);
+  border: solid 1px black;
+  border-radius: 4px;
+}
+
+ul li {
+  transition: font-weight 0.2s ease-in-out;
+  border-left: 1px solid black;
+}
+
+ul li:hover a {
+  font-weight: 600;
+}
+
+ul li a {
+  display: block;
+  min-width: 7.5rem;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  padding: 0 1.25rem 0 1.45rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  border-bottom: 0;
+}
+
+ul li:first-child {
+  border-left: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  html, body {
+    min-width: 320px;
+  }
+
+  .content {
+    padding-top: 10vh;
+  }
+
+  .header {
+    width: 90vw;
+    padding: 3.5rem 0;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  ul li {
+    border-left: 0;
+    border-top: 1px solid black;
+    min-width: 70vw;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul li:first-child {
+    border-top: 0;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 990px) {
+  .header {
+    width: 60vw;
+    padding: 2rem 0;
+  }
+
+  .content {
+    padding-top: 10vh;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1366px) {
+  .header {
+      width: 45vw;
+  }
+
+  .title {
+    line-height: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1367px) {
+  .header {
+      width: 40vw;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
