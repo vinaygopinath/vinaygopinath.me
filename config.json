@@ -19,31 +19,31 @@
     "description": "Adventures with technology and travel",
     "recent_posts_number": 4
   },
+  "taxonomies": {
+    "tag": "tags",
+    "category": "categories",
+    "blog": "blog"
+  },
+  "pluralizeListTitles": false,
   "menu": {
     "main": [
       {
         "name": "Tech",
         "identifier": "tech",
-        "url": "/categories/tech/",
+        "url": "/blog/tech/",
         "weight": 1
       },
       {
         "name": "Travel",
         "identifier": "travel",
-        "url": "/categories/travel/",
+        "url": "/blog/travel/",
         "weight": 2
       },
       {
-        "name": "Misc",
+        "name": "Other",
         "identifier": "everything-else",
-        "url": "/categories/everything-else/",
+        "url": "/blog/everything-else/",
         "weight": 3
-      },
-      {
-        "name": "Work",
-        "identifier": "work",
-        "url": "/work",
-        "weight": 4
       },
       {
         "name": "About",
