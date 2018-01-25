@@ -259,6 +259,12 @@ article p {
 .page .content a:hover {
   text-decoration-style: dashed;
 }
+
+.page .content img {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
 /* End of page */
 
 /* Post */
@@ -273,10 +279,12 @@ article p {
 .post .highlight {
   max-height: 50vh;
   overflow: auto;
+  margin-bottom: 1.5rem;
+  color: #c3b9af;
 }
 
 .post .highlight pre {
-  font-size: .9rem;
+  font-size: 1rem;
   padding: 1rem;
   max-width: 100%;
 }
@@ -289,6 +297,12 @@ article p {
 
 .post .content a:hover {
   text-decoration-style: dashed;
+}
+
+.post .content img {
+  max-width: 100%;
+  margin: auto;
+  display: block;
 }
 
 .post .tags {
@@ -307,6 +321,18 @@ article p {
 .post .tag:hover {
   text-decoration: underline dashed;
   text-underline-position: under;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 990px) {
+  .post .content .img-mobile img {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .post .content .img-mobile img {
+    max-width: 45%;
+  }
 }
 
 /* End of post */
@@ -336,11 +362,13 @@ article p {
 .post-summary .highlight {
   max-height: 50vh;
   overflow: auto;
+  margin-bottom: 1.5rem;
+  color: #c3b9af;
 }
 
 .post-summary .highlight pre {
   padding: 1rem;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   max-width: 100%;
 }
 
@@ -354,9 +382,28 @@ article p {
   text-decoration-style: dashed;
 }
 
+.post-summary .content img {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
 .post-summary .tag:hover {
   text-decoration: underline dashed;
   text-underline-position: under;
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 990px) {
+  .post-summary .content .img-mobile img {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .post-summary .content .img-mobile img {
+    max-width: 45%;
+  }
 }
 /* End of post-summary */
 
@@ -414,11 +461,5 @@ article p {
 }
 .page-nav .space {
   color: #ddd;
-}
-
-@media only screen and (max-width: 990px) {
-  .page-nav .page-number {
-    display: none;
-  }
 }
 /* End of pagination */
