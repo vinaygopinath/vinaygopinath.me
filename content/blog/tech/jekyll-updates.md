@@ -131,5 +131,5 @@ Lastly, since this site is hosted on Github Pages and Github approves a limited 
 Warning: Be sure to have a clean working environment by stashing/committing your files before running this command. I accidentally published a bunch of temp posts I'd created to test pagination because they were present (untracked , not stashed or committed) in the `_posts` folder and they ended up in the resulting Jekyll build. That's what you get for not reading the [manual](https://github.com/octopress/octopress#isolate)
 
 [Pagespeed insights score](https://developers.google.com/speed/pagespeed/insights/?url=vinaygopinath.me) for the site:
-![99/100 on both mobile and desktop](http://i.imgur.com/iJhrRzN.png)
+![99/100 on both mobile and desktop](https://i.imgur.com/iJhrRzN.png)
 
