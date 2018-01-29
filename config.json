@@ -15,9 +15,7 @@
     "filename": "sitemap.xml"
   },
   "params": {
-    "favicon": "",
-    "description": "Adventures with technology and travel",
-    "recent_posts_number": 4
+    "description": "Full-stack developer and digital nomad aspiring to work on technology for social good"
   },
   "taxonomies": {
     "tag": "tags",
