@@ -1,5 +1,9 @@
 {{ define "main"}}
   <main>
+		<style>
+			{{ readFile "themes/vinaygopinath.me/static/css/components/pagination.css" | safeCSS }}
+			{{ readFile "themes/vinaygopinath.me/static/css/components/post-summary.css" | safeCSS }}
+		</style>
 		{{ $paginator := .Paginate (where .Data.Pages "Section" .Section) 5}}
 		{{ range $paginator.Pages }}
 			{{ partial "post-summary.html" .}}

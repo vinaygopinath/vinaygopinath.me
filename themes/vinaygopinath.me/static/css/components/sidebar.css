@@ -1,0 +1,92 @@
+.sidebar {
+  --sidebar-width: 100vw;
+  --sidebar-height: 50vh;
+  --sidebar-bg-color: var(--primary-color);
+  --sidebar-color: rgba(255, 255, 255, 0.85);
+
+  position: fixed;
+	top: 0;
+	left: -100vw;
+  width: 100vw;
+  height: 50vh;
+  visibility: hidden;
+  backface-visibility: hidden;
+  transition: all .25s ease-in-out;
+  background: var(--sidebar-bg-color);
+  padding: 1.5vh 5vw;
+  box-sizing: border-box;
+  color: var(--sidebar-color);
+}
+
+/* Credit: Rubén Reyes @ https://codepen.io/ndeniche/pen/ljbDL */
+.sidebar .close {
+  position: absolute;
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  top: 10px;
+  right: 10px;
+  overflow: hidden;
+}
+
+.sidebar .close::before, .sidebar .close::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background: #fff;
+}
+
+.sidebar .close::before {
+  transform: rotate(45deg);
+}
+.sidebar .close::after {
+  transform: rotate(-45deg);
+}
+
+.sidebar-checkbox {
+	position: absolute;
+	opacity: 0;
+	user-select: none;
+}
+
+.sidebar-item p {
+  margin: 0;
+}
+
+.sidebar-nav {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-nav-item {
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+  #sidebar-checkbox:checked + .sidebar {
+    visibility: visible;
+  }
+
+  #sidebar-checkbox:checked ~ .sidebar {
+    transform: translateX(100vw);
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -1,0 +1,54 @@
+.page-nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px dotted transparent;
+}
+
+.page-nav a:hover {
+  border-bottom-color: var(--primary-color);
+}
+
+.page-nav {
+  margin: 50px auto;
+  text-align: center;
+  overflow: hidden;
+}
+.page-nav:before,
+.page-nav:after {
+  content: "";
+  display: table;
+}
+.page-nav:after {
+  clear: both;
+}
+.page-nav a,
+.page-nav span {
+  width: 36px;
+  height: 36px;
+  margin: 0 5px;
+  line-height: 36px;
+  text-align: center;
+}
+.page-nav a.prev,
+.page-nav a.next {
+  margin: 0;
+  width: auto;
+}
+.page-nav .prev {
+  float: left;
+}
+.page-nav .next {
+  float: right;
+}
+.page-nav .page-number {
+  display: inline-block;
+}
+
+.page-nav .current {
+  color: var(--bg-color);
+  border-radius: 18px;
+  background-color: var(--primary-color);
+}
+.page-nav .space {
+  color: #ddd;
+}

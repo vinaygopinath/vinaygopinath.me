@@ -1,0 +1,66 @@
+
+.post .timestamp {
+  display: block;
+  margin-top: -1.75rem;
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
+}
+
+.post .highlight {
+  max-height: 50vh;
+  overflow: auto;
+  margin-bottom: 1.5rem;
+  color: var(--code-color);
+}
+
+.post .highlight pre {
+  font-size: 1rem;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.post .content a {
+  text-decoration-style: dotted;
+  color: inherit;
+  text-underline-position: under;
+}
+
+.post .content a:hover {
+  text-decoration-style: dashed;
+}
+
+.post .content img {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.post .tags {
+  margin-bottom: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.post .tag {
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--secondary-color);
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+.post .tag:hover {
+  text-decoration: underline dashed;
+  text-underline-position: under;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 990px) {
+  .post .content .img-mobile img {
+    max-width: var(--post-mobile-width);
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .post .content .img-mobile img {
+    max-width: var(--post-laptop-width);
+  }
+}
