@@ -6,6 +6,7 @@
   --code-color: #c3b9af;
   --bg-color: #fff;
   --text-color: var(--primary-color);
+  --link-color: var(--code-color);
 
   --post-mobile-width: 80%;
   --post-laptop-width: 45%;

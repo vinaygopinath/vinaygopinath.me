@@ -41,7 +41,7 @@ The `GH_TOKEN` mentioned in the config refers to a token generated (with `public
 
 While this was super easy to set up, it has a few issues.
 
-### Drawbacks
+#### Drawbacks
 
 1. This approach is dependent on Travis CI's GitHub Pages support. You're out of luck if you're using a different Git hosting provider or your own Git server.
 2. Travis listens for commits on the `master` branch and triggers a build. Since the commit at build time is pushed back to `master`, this triggers an infinite build loop<sup>[[1]](https://github.com/travis-ci/travis-ci/issues/9329)</sup>!
@@ -102,5 +102,6 @@ fi
 TODO: If you're using Travis on public GitHub repositories, your build log is publicly visible. If there are any Git related errors, it is possible that the origin URL (with your GitHub personal access token with access to ALL your public repositories) may be logged, which is a huge security risk. It is strongly recommended to redirect the output of all git commands to `/dev/null` (e.g, `git push origin master --quiet > /dev/null 2>&1`) once you've verified that the script works for your repo.
 
 References:
+
 * Will Price's [GitHub Gist](https://gist.github.com/willprice/e07efd73fb7f13f917ea)
 * Justin Ellis' [post](https://jellis18.github.io/post/2017-12-03-continuous-integration-hugo/)

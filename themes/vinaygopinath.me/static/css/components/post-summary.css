@@ -1,10 +1,12 @@
 .post-summary {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .post-summary .title {
   text-decoration: none;
   color: inherit;
+  font-size: 2rem;
+  line-height: 2rem;
   transition: text-decoration 0.2s ease-in-out;
 }
 
@@ -34,6 +36,7 @@
 
 .post-summary .content a {
   text-decoration-style: dotted;
+  text-decoration-color: var(--link-color);
   color: inherit;
   text-underline-position: under;
 }
@@ -46,6 +49,14 @@
   max-width: 100%;
   margin: auto;
   display: block;
+}
+
+.post-summary .content li {
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 0 0 .5rem 0;
+  font-weight: 400;
 }
 
 .post-summary .tag:hover {
