@@ -7,7 +7,7 @@ categories: ["tech"]
 tags: ["Travis CI", "git", "Nomad Couple"]
 ---
 
-I'm trying to turn my pet project to find visa requirements for couples, [Nomad Couple](https://vinaygopinath.github.io/NomadCouple), into a full-fledged progressive web app (PWA) that has regularly updated visa requirements data (from Wikipedia) through a Travis CI cron job.
+I'm trying to turn my pet project to find visa requirements for couples, [Nomad Couple](https://nomadcouple.vinaygopinath.me), into a full-fledged progressive web app (PWA) that has regularly updated visa requirements data (from Wikipedia) through a Travis CI cron job.
 
 As part of that, I've set up the [wiki scraper repo](https://github.com/vinaygopinath/visa-req-wiki-scraper) to be rebuilt every month and any changes in the visa requirements for citizens of different countries (available in `dist/output`) to be automatically committed back to the `master` branch.
 

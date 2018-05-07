@@ -102,7 +102,7 @@ It's a good idea to add some fallback meta tags for use by crawlers that don't e
 The fallback meta tags are used to generate the rich snippet shown when your website is shared on Facebook (Just make sure to add [Open graph](http://ogp.me/) meta tags).
 [![Nomad Couple - Facebook share rich snippet](/images/blog/ng2-meta/facebook-share.png)](/images/blog/ng2-meta/facebook-share.png)
 
-Check out [Nomad Couple](https://vinaygopinath.github.io/NomadCouple/) as a demo of ng2-meta. Its source code is available [here](https://github.com/vinaygopinath/NomadCouple).
+Check out [Nomad Couple](https://nomadcouple.vinaygopinath.me) as a demo of ng2-meta. Its source code is available [here](https://github.com/vinaygopinath/NomadCouple).
 
 I'm currently investigating server-side rendering using [angular/universal](https://github.com/angular/universal) and plan to update ng2-meta to support it.
 
