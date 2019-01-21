@@ -1,7 +1,7 @@
 <style>
   {{ readFile "themes/vinaygopinath.me/static/css/components/contact-form.css" | safeCSS }}
 </style>
-<form class="contact-form" name="contact-form" accept-charset="UTF-8" netlify>
+<form class="contact-form" name="contact-form" data-netlify-recaptcha="true" accept-charset="UTF-8" netlify>
   <div class="field required">
     <label for="name">Your Name</label>
     <input type="text" id="name" name="name" required aria-labelledby="name" minlength="3"/>
