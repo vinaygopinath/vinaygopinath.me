@@ -1,55 +1,14 @@
 
-.post .timestamp {
-  display: block;
-  margin-top: -1.75rem;
-  margin-bottom: 2rem;
-  color: var(--secondary-color);
-}
-
 .post .title {
   text-decoration: none;
   color: inherit;
   font-size: 2.5rem;
-  line-height: 3rem;
-  transition: text-decoration 0.2s ease-in-out;
-}
-
-.post .highlight {
-  max-height: 50vh;
-  overflow: auto;
+  line-height: 2.75rem;
   margin-bottom: 1.5rem;
-  color: var(--code-color);
 }
 
-.post .highlight pre {
-  font-size: 1rem;
-  padding: 1rem;
-  max-width: 100%;
-}
-
-.post .content a {
-  text-decoration-style: dotted;
-  text-decoration-color: var(--link-color);
-  color: inherit;
-  text-underline-position: under;
-}
-
-.post .content a:hover {
-  text-decoration-style: dashed;
-}
-
-.post .content img {
-  max-width: 100%;
-  margin: auto;
-  display: block;
-}
-
-.post .content li {
-  text-align: justify;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  margin: 0 0 .5rem 0;
-  font-weight: 400;
+.post .content {
+  padding: 2rem 0;
 }
 
 .post .tags {
@@ -68,12 +27,6 @@
 .post .tag:hover {
   text-decoration: underline dashed;
   text-underline-position: under;
-}
-
-.post .embed-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media only screen and (min-width: 481px) and (max-width: 990px) {

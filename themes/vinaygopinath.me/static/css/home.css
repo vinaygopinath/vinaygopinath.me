@@ -72,7 +72,6 @@ ul {
 }
 
 ul li {
-  transition: font-weight 0.2s ease-in-out;
   border-left: 1px solid black;
 }
 

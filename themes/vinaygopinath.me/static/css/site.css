@@ -1,9 +1,10 @@
 :root {
-  --heading-font: 'Hind', sans-serif;
-  --body-font: 'Hind', sans-serif;
-  --primary-color: #3c4650;
-  --secondary-color: #748697;
+  --heading-font: 'IBM Plex Sans', sans-serif;
+  --body-font: 'IBM Plex Sans', sans-serif;
+  --primary-color: #45484d;
+  --secondary-color: #748697cc;
   --code-color: #c3b9af;
+  --code-bg-color: #272822;
   --bg-color: #fff;
   --text-color: var(--primary-color);
   --link-color: var(--code-color);
@@ -13,8 +14,6 @@
 
   --sidebar-toggle-color: var(--primary-color);
   --sidebar-toggle-bg-color: var(--bg-color);
-
-  --site-transition: all .25s ease-in-out;
 
   /* Screen size definitions
      These variables are only for reference, since CSS variables
@@ -36,6 +35,7 @@ body {
   padding: 0;
   width: 100%;
   color: var(--text-color);
+  text-rendering: optimizeLegibility;
 }
 
 .main-content {
@@ -44,10 +44,82 @@ body {
 
 article p {
   text-align: justify;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  margin: 0 0 1.5rem 0;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin: 0;
   font-weight: 400;
+}
+
+article p:first-child {
+  margin-top: 0.75rem;
+}
+
+article p + p {
+  margin-top: 1rem;
+}
+
+article h2 {
+  font-size: 1.65rem;
+}
+
+article h3 {
+  font-size: 1.5rem;
+}
+
+article h4 {
+  font-size: 1.35rem;
+}
+
+article .content li {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 0 0 .5rem 0;
+  font-weight: 400;
+}
+
+article .content img {
+  max-width: 100%;
+  margin: 2rem auto;
+  display: block;
+}
+
+article .content .embed-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article .content .highlight {
+  max-height: 50vh;
+  overflow: auto;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  color: var(--code-color);
+  background-color: var(--code-bg-color);
+}
+
+article .content .highlight pre {
+  font-size: 1rem;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+article .content a {
+  text-decoration-style: dotted;
+  text-decoration-color: var(--link-color);
+  color: inherit;
+  text-underline-position: under;
+}
+
+article .content a:hover {
+  text-decoration-style: dashed;
+}
+
+article .timestamp {
+  display: block;
+  margin-top: -.75rem;
+  color: var(--secondary-color);
 }
 
 @media only screen and (max-width: 480px) {

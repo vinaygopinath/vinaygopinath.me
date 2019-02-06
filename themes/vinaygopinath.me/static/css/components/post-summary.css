@@ -1,31 +1,20 @@
 .post-summary {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
+}
+
+.post-summary .content {
+  padding: 1.5rem 0;
 }
 
 .post-summary .title {
   text-decoration: none;
   color: inherit;
   font-size: 2rem;
-  line-height: 2rem;
-  transition: text-decoration 0.2s ease-in-out;
-}
-
-.post-summary .timestamp {
-  display: block;
-  margin-top: -1.75rem;
-  color: var(--secondary-color);
-  margin-bottom: .5rem;
+  line-height: 2.4rem;
 }
 
 .post-summary .title:hover {
   text-decoration: underline;
-}
-
-.post-summary .highlight {
-  max-height: 50vh;
-  overflow: auto;
-  margin-bottom: 1.5rem;
-  color: var(--code-color);
 }
 
 .post-summary .highlight pre {
@@ -34,42 +23,10 @@
   max-width: 100%;
 }
 
-.post-summary .content a {
-  text-decoration-style: dotted;
-  text-decoration-color: var(--link-color);
-  color: inherit;
-  text-underline-position: under;
-}
-
-.post-summary .content a:hover {
-  text-decoration-style: dashed;
-}
-
-.post-summary .content img {
-  max-width: 100%;
-  margin: auto;
-  display: block;
-}
-
-.post-summary .content li {
-  text-align: justify;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  margin: 0 0 .5rem 0;
-  font-weight: 400;
-}
-
 .post-summary .tag:hover {
   text-decoration: underline dashed;
   text-underline-position: under;
 }
-
-.post-summary .embed-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 @media only screen and (min-width: 481px) and (max-width: 990px) {
   .post-summary .content .img-mobile img {
