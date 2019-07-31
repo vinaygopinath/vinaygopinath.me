@@ -9,8 +9,7 @@ tags: ["Kannada", "Regional language support", "Uber", "internationalization"]
 
 A few months ago, I bumped into someone who was using [Kannada](https://en.wikipedia.org/wiki/Kannada) as their system language on their iPhone. Curious to find out Android's support for languages that are not English, I switched my system language to Kannada as well and was pleasantly surprised to find nearly everything on stock Android in Kannada. The app ecosystem on the other hand is a different story.
 
-Neither Uber nor Ola, India's leading taxi apps, seems to care about regional language support - While Ola makes no attempt to support use in Kannada, Uber's attempt at Kannada internationalization seems to be an afterthought, with entirely broken screens.
-
+Uber and Ola, India's leading taxi apps, don't seem to care about regional language support - While Ola makes no attempt to support use in Kannada, Uber's attempt at Kannada internationalization seems to be an afterthought, with entirely broken screens.
 <div class="img-mobile">
   [![Uber Android app screenshot with broken Kannada internationalization](/images/blog/regional-lang/uber.png)](/images/blog/regional-lang/uber.png)
 </div>
