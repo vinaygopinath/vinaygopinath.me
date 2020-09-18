@@ -123,8 +123,17 @@ article .timestamp {
 }
 
 @media only screen and (max-width: 480px) {
+  body {
+    max-width: 100%;
+  }
+
   .main-content {
     width: 90vw;
+  }
+
+  article p {
+    font-size: 1.4rem;
+    line-height: 1.4;
   }
 }
 
