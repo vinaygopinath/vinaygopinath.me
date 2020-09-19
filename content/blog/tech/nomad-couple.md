@@ -4,7 +4,7 @@ description: "Nomad Couple is a visa requirement information site for couples"
 date: 2016-07-25T16:31:07+02:00
 blog: ["tech", "travel"]
 categories: ["tech", "travel"]
-tags: ["Angular", "visa"]
+tags: ["Angular", "visa", "Nomad couple"]
 aliases: ["/tech/2016/07/25/nomad-couple/", "/tech/2016/07/25/nomad-couple"]
 ---
 
