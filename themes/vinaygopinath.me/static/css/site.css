@@ -7,7 +7,8 @@
   --code-bg-color: #272822;
   --bg-color: #fff;
   --text-color: var(--primary-color);
-  --link-color: var(--code-color);
+  --link-default-underline-color: #dcdcdc;
+  --link-color: #1E90FF;
 
   --post-mobile-width: 80%;
   --post-laptop-width: 45%;
@@ -43,7 +44,6 @@ body {
 }
 
 article p {
-  text-align: justify;
   font-size: 1.25rem;
   line-height: 1.6;
   margin: 0;
@@ -106,14 +106,13 @@ article .content .highlight pre {
 }
 
 article .content a {
-  text-decoration-style: dotted;
-  text-decoration-color: var(--link-color);
-  color: inherit;
-  text-underline-position: under;
+  color: var(--link-color);
+  text-decoration-color: var(--link-default-underline-color);
 }
 
 article .content a:hover {
-  text-decoration-style: dashed;
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 2px;
 }
 
 article .timestamp {

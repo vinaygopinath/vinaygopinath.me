@@ -3,6 +3,7 @@ title: "Ruth Bader Ginsburg"
 date: 2020-09-24T01:31:53+03:00
 blog: ["everything-else"]
 categories: ["everything-else"]
+tags: ["LGBTQ"]
 ---
 
 I struggled with last weekend's news of Ruth Bader Ginsburg's death.
