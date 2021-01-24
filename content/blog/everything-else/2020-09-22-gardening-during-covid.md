@@ -3,7 +3,7 @@ title: "Gardening during COVID"
 date: 2020-09-22T09:30:16+03:00
 blog: ["everything-else"]
 categories: ["everything-else"]
-tags: ["Kisumu", "gardening"]
+tags: ["Kisumu", "COVID", "gardening"]
 ---
 
 Hello!
@@ -20,9 +20,9 @@ I remember reading about compost circles (but I can't seem to find any reference
 
 [![Digging a compost circle](/images/blog/2020-09-22-gardening/compost-circle.jpg)](/images/blog/2020-09-22-gardening/compost-circle.jpg)
 
-With food waste covered, it was time to make sure I had a source of fresh vegetables - I dug two patches of about 2m X 3m, and planted green beans (I found a dried-up plant elsewhere within the compound and used the dry, pearly black seeds in pods, unsure if they would grow, but grow they did), cucumbers and tomatoes. It's astonishing how quickly beans grow and how resilient they are to poor watering and intense sunlight - While the tomato plants drooped and wilted if they weren't watered abundantly everyday, the beans seemed to flourish. Within a month, the bean plants had flowered and produced sweet, fresh beans. I'd take a break after work meetings in the evenings to water the plants and eat the young beans right off the plant 😍
+With food waste covered, it was time to make sure I had a source of fresh vegetables - I dug two patches of about 2m X 3m, and planted green beans (I found a dried-up plant elsewhere within the compound and used the dry, pearly black seeds in pods, unsure if they would grow, but grow they did), cucumbers and tomatoes. It's astonishing how quickly beans grow and how resilient they are to poor watering and intense sunlight - While the tomato plants drooped and wilted if they weren't watered abundantly everyday, the beans seemed to flourish. Within a month, the bean plants had flowered and produced sweet, fresh beans. I'd take a break after work meetings in the evenings to water the plants and snack on young beans fresh off the plant 😍
 
-The cucumber plants started off well, but the leaves turned yellow and the tiny cucumbers died on the vine before they could ripen. I realised it was a mistake to plant them in a spot that received sunlight for at least eight hours everyday - While the beans and tomato plants loved the direct sunlight, I believe cucumbers like the shade. Talking to a friend about the cucumber situation, I learnt there are insects that burrow into the soil and destroy the roots of cucumber plants. I did not get to confirm this because the cucumber plants were already too far gone.
+The cucumber plants started off well, but the leaves turned yellow and the tiny cucumbers whose growth I was so excited to monitor everyday died on the vine before they could ripen. I realised it was a mistake to plant them in a spot that received sunlight for at least eight hours everyday - While the beans and tomato plants loved the direct sunlight, I believe cucumbers like the shade. Talking to a friend about the cucumber situation, I learnt there are insects that burrow into the soil and destroy the roots of cucumber plants. I did not get to confirm this because the cucumber plants were already too far gone.
 
 [![Fresh green beans and the late office dog Kike, patiently waiting for treats](/images/blog/2020-09-22-gardening/beans.jpg)](/images/blog/2020-09-22-gardening/beans.jpg)
 
