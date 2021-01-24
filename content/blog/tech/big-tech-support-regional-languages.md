@@ -11,7 +11,9 @@ A few months ago, I bumped into someone who was using [Kannada](https://en.wikip
 
 Uber and Ola, India's leading taxi apps, don't seem to care about regional language support - While Ola makes no attempt to support use in Kannada, Uber's attempt at Kannada internationalization seems to be an afterthought, with entirely broken screens.
 <div class="img-mobile">
-  [![Uber Android app screenshot with broken Kannada internationalization](/images/blog/regional-lang/uber.png)](/images/blog/regional-lang/uber.png)
+  <a href="/images/blog/regional-lang/uber.png">
+    <img src="/images/blog/regional-lang/uber.png" alt="Uber Android app screenshot with broken Kannada internationalization">
+  </a>
 </div>
 
 ### Why support regional languages?

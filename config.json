@@ -13,6 +13,13 @@
     "priority": 0.5,
     "filename": "sitemap.xml"
   },
+  "markup": {
+    "goldmark": {
+      "renderer": {
+        "unsafe": true
+      }
+    }
+   },
   "params": {
     "description": "Full-stack developer and digital nomad aspiring to work on technology for social good"
   },

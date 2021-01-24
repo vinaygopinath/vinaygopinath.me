@@ -11,12 +11,16 @@ I'm a big fan of Toruń, and I've spent a lot of time exploring the city over th
 
 The app uses the Google Maps Android API to show all the bike stations in the city as well as your current location. Using the Locate icon floating action button, you can locate the bike station that's nearest to you from any location in the city.
 <div class="img-mobile">
-  [![TRM Torun Android app home screen](/images/blog/trm-torun-app/home.png)](/images/blog/trm-torun-app/home.png)
+  <a href="/images/blog/trm-torun-app/home.png">
+    <img src="/images/blog/trm-torun-app/home.png" alt="TRM Torun Android app home screen">
+  </a>
 </div>
 
 Once you've identified a bike station, you can check the number of available bikes, and use the Navigate icon floating action button to get walking directions to the station from Google Maps. The app is capable of working offline, using a cache of bike stations, but, needless to say, realtime bike availability information needs a working internet connection.
 <div class="img-mobile">
-  [![TRM Torun Android app bike station information](/images/blog/trm-torun-app/bike-info.png)](/images/blog/trm-torun-app/bike-info.png)
+  <a href="/images/blog/trm-torun-app/bike-info.png">
+    <img src="/images/blog/trm-torun-app/bike-info.png" alt="TRM Torun Android app bike station information">
+  </a>
 </div>
 
 **Demo**
