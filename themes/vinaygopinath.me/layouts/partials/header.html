@@ -36,6 +36,7 @@
     <meta name="msapplication-TileImage" content="/icons/mstile-144x144.png" />
 
     <style>
+      {{ readFile "themes/vinaygopinath.me/static/css/font.css" | safeCSS }}
       {{ readFile "themes/vinaygopinath.me/static/css/site.css" | safeCSS }}
       {{ readFile "themes/vinaygopinath.me/static/css/components/navbar.css" | safeCSS }}
       {{ readFile "themes/vinaygopinath.me/static/css/components/pagination.css" | safeCSS }}
