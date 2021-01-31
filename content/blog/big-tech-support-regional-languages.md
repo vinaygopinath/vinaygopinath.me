@@ -2,7 +2,6 @@
 title: "Hey Big Tech, Support Regional Languages!"
 description: "Apps and websites have a long way to go with internationalization"
 date: 2019-06-15T11:05:57+03:00
-blog: ["tech", "everything-else"]
 categories: ["tech", "everything-else"]
 tags: ["Kannada", "Regional language support", "Uber", "internationalization"]
 aliases:

@@ -1,7 +1,6 @@
 ---
 title: "Hike for Mental Health"
 date: 2020-11-14T19:16:42+03:00
-blog: ["everything-else"]
 categories: ["everything-else"]
 tags: ["COVID", "LGBTQ", "Kisumu"]
 aliases:

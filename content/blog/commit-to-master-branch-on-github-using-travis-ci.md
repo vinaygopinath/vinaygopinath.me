@@ -2,7 +2,6 @@
 title: "Commit to Master Branch on GitHub Using Travis CI"
 description: "Automate your Travis CI build process to commit to the master branch of your repo on Git/GitHub"
 date: 2018-04-24T11:57:08+02:00
-blog: ["tech"]
 categories: ["tech"]
 tags: ["Travis CI", "git", "Nomad Couple"]
 aliases:

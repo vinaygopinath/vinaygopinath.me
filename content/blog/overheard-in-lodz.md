@@ -2,7 +2,6 @@
 title: "Overheard in Łódź"
 description: "We buy things we don't need... Fight Club quote"
 date: 2016-08-25T19:59:36+02:00
-blog: ["travel"]
 categories: ["travel"]
 tags: ["Łódź", "Poland"]
 aliases:

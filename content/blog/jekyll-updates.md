@@ -2,7 +2,6 @@
 title: "Jekyll updates"
 description: "Plugins and improvements of my Jekyll blog"
 date: 2016-04-14T11:11:49+02:00
-blog: ["tech"]
 categories: ["tech"]
 tags: ["Jekyll"]
 aliases:

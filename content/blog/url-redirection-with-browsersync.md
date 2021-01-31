@@ -2,7 +2,6 @@
 title: "URL Redirection With BrowserSync"
 description: "Redirect URLs to an alternate path on your localhost site with Browsersync"
 date: 2016-05-17T16:57:05+02:00
-blog: ["tech"]
 categories: ["tech"]
 tags: ["BrowserSync", "Gulp"]
 aliases:

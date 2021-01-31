@@ -2,7 +2,6 @@
 title: "Android app for Torun's city bike system"
 description: "Explore Torun and locate nearby city bike stations with my free Android app"
 date: 2016-10-21T22:17:40+02:00
-blog: ["tech"]
 categories: ["tech"]
 tags: ["Android", "Google Maps", "Toruń"]
 aliases:

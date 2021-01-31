@@ -2,7 +2,6 @@
 title: "Hello"
 description: "Setting up a new GitHub Pages-powered Jekyll site"
 date: 2016-02-17T10:41:00+01:00
-blog: ["tech"]
 categories: ["tech"]
 tags: ["GitHub", "Jekyll"]
 aliases:

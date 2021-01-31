@@ -2,7 +2,6 @@
 title: "Fever Pitch"
 description: "Can we just fast-forward to 2021 please?"
 date: 2020-10-25T16:35:03+03:00
-blog: ["everything-else"]
 categories: ["everything-else"]
 tags: ["climate change"]
 aliases:

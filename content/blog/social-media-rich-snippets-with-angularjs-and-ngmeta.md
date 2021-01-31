@@ -2,7 +2,6 @@
 title: "Social media rich snippets with AngularJS and ngMeta"
 description: "Show fallback meta title and description in social media preview snippets for your Angular + ngMeta site"
 date: 2016-11-26T12:22:06+01:00
-blog: ["tech"]
 categories: ["tech"]
 tags: ["Angular.js", "SEO"]
 aliases:

@@ -2,7 +2,6 @@
 title: "SEO in Angular with ng2-meta"
 description: "How to use ng2-meta to update meta tags in your Angular site and improve your SEO"
 date: 2016-07-25T20:02:22+02:00
-blog: ["tech"]
 categories: ["tech"]
 tags: ["Angular", "npm"]
 aliases:

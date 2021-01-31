@@ -3,7 +3,6 @@ title: "Setting up CORS with pre-flight request handling for development use in 
 url: "/blog/tech/enable-cors-with-pre-flight"
 description: "Set up express routing to handle CORS + pre-flight request handling in development environment using Nodejs and Express."
 date: 2016-05-23T23:20:37+02:00
-blog: ["tech"]
 categories: ["tech"]
 tags: ["node.js"]
 aliases:

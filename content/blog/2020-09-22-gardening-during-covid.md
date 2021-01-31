@@ -1,7 +1,6 @@
 ---
 title: "Gardening during COVID"
 date: 2020-09-22T09:30:16+03:00
-blog: ["everything-else"]
 categories: ["everything-else"]
 tags: ["Kisumu", "COVID", "gardening"]
 aliases:

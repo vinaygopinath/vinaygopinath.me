@@ -2,7 +2,6 @@
 title: "Sending emails from Ghost with Nodemailer and SparkPost"
 description: "How to use Nodemailer and SparkPost to send transactional emails from the Ghost blogging platform"
 date: 2016-06-14T01:08:22+02:00
-blog: ["tech"]
 categories: ["tech"]
 tags: ["node.js", "ghost"]
 aliases:
