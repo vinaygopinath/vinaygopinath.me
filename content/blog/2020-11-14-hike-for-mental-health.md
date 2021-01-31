@@ -4,6 +4,8 @@ date: 2020-11-14T19:16:42+03:00
 blog: ["everything-else"]
 categories: ["everything-else"]
 tags: ["COVID", "LGBTQ", "Kisumu"]
+aliases:
+  - /blog/everything-else/2020-11-14-hike-for-mental-health/
 ---
 
 [![Western Kenya LBQT Feminist Forum meetup in Kakamega forest](/images/blog/nov-2020-hike-for-mental-health/hike-for-mental-health.jpg)](/images/blog/nov-2020-hike-for-mental-health/hike-for-mental-health.jpg)

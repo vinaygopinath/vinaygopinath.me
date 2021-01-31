@@ -6,7 +6,10 @@ date: 2016-05-23T23:20:37+02:00
 blog: ["tech"]
 categories: ["tech"]
 tags: ["node.js"]
-aliases: ["/tech/2016/05/23/enable-cors-with-pre-flight/", "/tech/2016/05/23/enable-cors-with-pre-flight"]
+aliases:
+  - /tech/2016/05/23/enable-cors-with-pre-flight/
+  - /tech/2016/05/23/enable-cors-with-pre-flight
+  - /blog/tech/enable-cors-with-pre-flight/
 ---
 
 "Cross-Origin Resource Sharing" (CORS)-related errors are a common occurrence while developing a site with a separate frontend and API backend. While the [cors module](https://github.com/expressjs/cors) can set headers and respond to pre-flight requests, I didn't find any documentation to set it up only in the Node development environment (assuming you don't want to expose your APIs to requests from multiple domains).

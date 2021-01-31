@@ -5,6 +5,8 @@ date: 2018-04-24T11:57:08+02:00
 blog: ["tech"]
 categories: ["tech"]
 tags: ["Travis CI", "git", "Nomad Couple"]
+aliases:
+  - /blog/tech/commit-to-master-branch-on-github-using-travis-ci/
 ---
 
 I'm trying to turn my pet project to find visa requirements for couples, [Nomad Couple](https://nomadcouple.vinaygopinath.me), into a full-fledged progressive web app (PWA) that has regularly updated visa requirements data (from Wikipedia) through a Travis CI cron job.

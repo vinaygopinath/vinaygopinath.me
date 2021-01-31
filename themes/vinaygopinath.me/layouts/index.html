@@ -1,81 +1,12 @@
-<!DOCTYPE HTML>
-<html lang="en-GB">
+{{ define "main" }}
+<section id="home">
+    {{ $pages := where site.RegularPages "Type" "blog" }}
+    {{ $paginator := .Paginate $pages }}
+    {{ range $index, $page := $paginator.Pages }}
+      {{ partial "post-summary.html" .}}
+    {{ end }}
+</section>
 
-<head>
-  <title>{{ .Site.Title }}</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#3c4650">
+{{ partial "pagination" . }}
 
-  <meta name="description" content="{{.Page.Params.description | default .Site.Params.description}}">
-  <meta name="og:description" content="{{.Page.Params.description | default .Site.Params.description}}">
-  <link rel="canonical" href="{{ .Page.URL | absURL }}">
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/icons/apple-touch-icon-57x57.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/icons/apple-touch-icon-114x114.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/icons/apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/icons/apple-touch-icon-144x144.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/icons/apple-touch-icon-120x120.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/icons/apple-touch-icon-152x152.png" />
-  <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16" />
-  <link rel="shortcut icon" href="/icons/favicon.ico">
-  <meta name="application-name" content="Vinay Gopinath" />
-  <meta name="msapplication-TileColor" content="#3c4650" />
-  <meta name="msapplication-TileImage" content="/icons/mstile-144x144.png" />
-
-  <style>
-    {{ readFile "themes/vinaygopinath.me/static/css/home.css" | safeCSS }}
-  </style>
-</head>
-
-<body>
-  <div class="wrapper">
-    <div class="content">
-      <div class="header">
-        <h4 class="title">Vinay Gopinath</h4>
-        <p class="description">Full-stack developer, traveller, cyclist</p>
-      </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="/blog">Blog</a>
-          </li>
-          <!-- <li>
-            <a href="/work">Work</a>
-          </li> -->
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-
-  <script>
-   WebFontConfig = {
-    google: {
-      families: ['Hind:400,600:latin-ext']
-    }
-  };
-
-   (function(d) {
-      var wf = d.createElement('script'), s = d.scripts[0];
-      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
-      wf.async = true;
-      s.parentNode.insertBefore(wf, s);
-   })(document);
-  </script>
-  <script>
-    window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
-    ga('create', 'UA-78016218-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <script async src='https://www.google-analytics.com/analytics.js'></script>
-</body>
-
-<body>
+{{ end }}

@@ -1,15 +1,22 @@
 {{ define "main"}}
-  <main>
-		<style>
-			{{ readFile "themes/vinaygopinath.me/static/css/components/pagination.css" | safeCSS }}
-			{{ readFile "themes/vinaygopinath.me/static/css/components/post-summary.css" | safeCSS }}
-		</style>
-		{{ $paginator := .Paginate (where .Data.Pages "Section" .Section) 5}}
-		{{ range $paginator.Pages }}
-			{{ partial "post-summary.html" .}}
-		{{ end }}
-		<div class="pagination-section">
+
+  <section id="list">
+    <h2>{{ .Title | humanize }}</h2>
+
+    {{ .Content }}
+
+    {{- if .Pages -}}
+      {{ range (.Paginate (.Data.Pages.GroupByDate "Jan 2006")).PageGroups  }}
+
+      <h3>{{ .Key }}</h3>
+          {{ range .Pages }}
+            {{ partial "post-summary.html" .}}
+          {{ end }}
+      {{ end }}
+    {{ end }}
+	</section>
+
+	<div class="pagination-section">
 			{{ partial "pagination.html" . }}
-		</div>
-	</main>
+	</div>
 {{ end }}

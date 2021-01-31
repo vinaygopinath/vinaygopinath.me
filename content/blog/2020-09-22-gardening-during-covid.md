@@ -4,6 +4,8 @@ date: 2020-09-22T09:30:16+03:00
 blog: ["everything-else"]
 categories: ["everything-else"]
 tags: ["Kisumu", "COVID", "gardening"]
+aliases:
+  - /blog/everything-else/2020-09-22-gardening-during-covid/
 ---
 
 Hello!

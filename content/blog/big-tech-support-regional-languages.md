@@ -5,6 +5,8 @@ date: 2019-06-15T11:05:57+03:00
 blog: ["tech", "everything-else"]
 categories: ["tech", "everything-else"]
 tags: ["Kannada", "Regional language support", "Uber", "internationalization"]
+aliases:
+  - /blog/tech/big-tech-support-regional-languages/
 ---
 
 A few months ago, I bumped into someone who was using [Kannada](https://en.wikipedia.org/wiki/Kannada) as their system language on their iPhone. Curious to find out Android's support for languages that are not English, I switched my system language to Kannada as well and was pleasantly surprised to find nearly everything on stock Android in Kannada. The app ecosystem on the other hand is a different story.

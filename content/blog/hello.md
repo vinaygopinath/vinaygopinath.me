@@ -5,7 +5,9 @@ date: 2016-02-17T10:41:00+01:00
 blog: ["tech"]
 categories: ["tech"]
 tags: ["GitHub", "Jekyll"]
-aliases: ["/tech/2016/02/17/hello/", "/tech/2016/02/17/hello"]
+aliases:
+  - /tech/2016/02/17/hello/
+  - /blog/tech/hello/
 ---
 
 Hello,

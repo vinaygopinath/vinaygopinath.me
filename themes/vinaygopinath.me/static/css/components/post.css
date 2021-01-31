@@ -29,6 +29,24 @@
   text-underline-position: under;
 }
 
+.post .post-nav ul {
+  margin: 0.5em 0;
+  padding: 0.5em 0 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #f7f7f7;
+  font-size: 0.9em;
+}
+
+.post .post-nav ul li + li {
+  padding-right: 3rem;
+}
+
+.post .post-nav ul li a {
+  font-size: 17px;
+}
+
 @media only screen and (min-width: 481px) and (max-width: 990px) {
   .post .content .img-mobile img {
     max-width: var(--post-mobile-width);

@@ -5,6 +5,8 @@ date: 2020-10-25T16:35:03+03:00
 blog: ["everything-else"]
 categories: ["everything-else"]
 tags: ["climate change"]
+aliases:
+  - /blog/everything-else/2020-10-25-fever-pitch/
 ---
 
 I spent a couple of blissful months unaware of the happenings of the world, cut off from my muscle-memory visits to The Guardian, Hacker News, Google News and a dozen other websites as I wait for my code changes to build. When I first stopped reading the news, I thought I'd miss being out of the loop and "relapse" pretty quickly, but I managed to hold off for about three months. Towards the end of it, I dipped back every week or two, mostly to know how COVID was ravaging the world and whether I'd be allowed back into India (Has any other country ever shut down all international flights and refused entry to its own citizens?), just in case that became a necessity. I even managed to read more long-form articles (Thanks [Aeon](https://aeon.co/)!) and books, since there was a surprisingly big chunk of free time that I would have otherwise filled with news.

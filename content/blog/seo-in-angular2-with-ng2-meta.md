@@ -5,7 +5,9 @@ date: 2016-07-25T20:02:22+02:00
 blog: ["tech"]
 categories: ["tech"]
 tags: ["Angular", "npm"]
-aliases: ["/tech/2016/07/25/seo-in-angular2-with-ng2-meta/", "/tech/2016/07/25/seo-in-angular2-with-ng2-meta"]
+aliases:
+  - /tech/2016/07/25/seo-in-angular2-with-ng2-meta/
+  - /blog/tech/seo-in-angular2-with-ng2-meta/
 ---
 
 Updating meta tags such as title and description as the route changes is essential for SEO in any single page application. While building [Nomad Couple](http://vinaygopinath.me/tech/2016/07/25/nomad-couple/), an Angular2 site, I realized that there weren't any Angular2 meta-tags libraries, so I decided to build one. I've released it as [ng2-meta](https://github.com/vinaygopinath/ng2-meta) on npm.

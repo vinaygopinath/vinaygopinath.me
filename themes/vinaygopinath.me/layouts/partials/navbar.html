@@ -2,14 +2,14 @@
   <div class="toggle-wrapper">
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
     <h4 class="title">
-      <a href="/blog">Vinay Gopinath</a>
+      <a href="/">Vinay Gopinath</a>
     </h4>
   </div>
   <nav>
     <ul>
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
-      <li class = '{{ if or (eq .Identifier "tech") (eq .Identifier "travel") (eq .Identifier "everything-else") }} non-essential {{ end }} {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active {{end}}'>
+      <li class = '{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active {{end}}'>
         <a href="{{.URL}}">{{ .Name }}</a>
       </li>
       {{ end }}

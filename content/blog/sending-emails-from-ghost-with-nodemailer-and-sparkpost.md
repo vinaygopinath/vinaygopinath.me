@@ -5,7 +5,9 @@ date: 2016-06-14T01:08:22+02:00
 blog: ["tech"]
 categories: ["tech"]
 tags: ["node.js", "ghost"]
-aliases: ["/tech/2016/06/14/sending-emails-from-ghost-with-nodemailer-and-sparkpost/", "/tech/2016/06/14/sending-emails-from-ghost-with-nodemailer-and-sparkpost"]
+aliases:
+  - /tech/2016/06/14/sending-emails-from-ghost-with-nodemailer-and-sparkpost/
+  - /blog/tech/sending-emails-from-ghost-with-nodemailer-and-sparkpost/
 ---
 
 While I personally prefer Jekyll to Ghost in the battle of minimalistic CMS platforms, I recently set up a [Ghost](https://ghost.org/) blog for work and connected the built-in [Nodemailer](https://github.com/nodemailer/nodemailer) email module with [SparkPost](https://www.sparkpost.com), an email service. Here's how:

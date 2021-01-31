@@ -5,7 +5,10 @@ date: 2016-04-14T11:11:49+02:00
 blog: ["tech"]
 categories: ["tech"]
 tags: ["Jekyll"]
-aliases: ["/tech/2016/04/14/jekyll-updates/", "/tech/2016/04/14/jekyll-updates"]
+aliases:
+  - /tech/2016/04/14/jekyll-updates/
+  - /tech/2016/04/14/jekyll-updates/
+  - /blog/tech/jekyll-updates/
 ---
 
 I've been exploring the Jekyll ecosystem over the past couple of weeks, and consider me sold - I really like the simplicity of building a static site with pages, posts and collections. I know that neither Jekyll nor Ghost will dethrone WordPress as the layman's choice of CMS, but given all of the work coming out of the node.js and Ruby camps, WordPress has got some stiff competition, and deservedly so.

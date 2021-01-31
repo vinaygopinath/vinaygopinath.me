@@ -23,32 +23,15 @@
   "params": {
     "description": "Full-stack developer and digital nomad aspiring to work on technology for social good"
   },
-  "taxonomies": {
-    "tag": "tags",
-    "category": "categories",
-    "blog": "blog"
+  "permalinks": {
+    "blog": "/:year/:month/:title/"
+  },
+  "author": {
+    "name": "Vinay Gopinath"
   },
   "pluralizeListTitles": false,
   "menu": {
     "main": [
-      {
-        "name": "Tech",
-        "identifier": "tech",
-        "url": "/blog/tech/",
-        "weight": 1
-      },
-      {
-        "name": "Travel",
-        "identifier": "travel",
-        "url": "/blog/travel/",
-        "weight": 2
-      },
-      {
-        "name": "Other",
-        "identifier": "everything-else",
-        "url": "/blog/everything-else/",
-        "weight": 3
-      },
       {
         "name": "About",
         "identifier": "about",

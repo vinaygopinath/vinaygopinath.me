@@ -1,10 +1,47 @@
 {{ define "main"}}
-  <main>
-		<article class="page">
-			<h1>{{ .Title }}</h1>
-			<div class="content">
-				{{ .Content }}
-			</div>
-		</article>
-	</main>
+<main>
+  <article class="post">
+    <h1 class="title">{{ .Title }}</h1>
+    <time class="timestamp">{{ .Date.Format "Monday, 2 Jan, 2006 at 15:04" }}</time>
+    <div class="content">
+      {{ .Content }}
+    </div>
+    {{ with .Params.tags }}
+      <div class="tags">
+        Tags:
+        {{ range . }}
+          <a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+      </div>
+		{{ end }}
+
+		{{ with .Params.categories }}
+		<div class="tags">
+			Categories:
+			{{ range . }}
+				<a class="tag" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+			{{ end }}
+		</div>
+	{{ end }}
+
+  <span>Other posts</span>
+  <section class="post-nav">
+    <ul>
+        {{ with .PrevInSection }}
+        <li>
+            <a href="{{.Permalink}}">{{ .Title }}</a><br/>
+            <span> {{ .Description }}</span>
+        </li>
+        {{ end }}
+        {{ with .NextInSection }}
+        <li>
+            <a href="{{.Permalink}}">{{ .Title }}</a><br/>
+            <span> {{.Description}}</span>
+        </li>
+        {{ end }}
+    </ul>
+</section>
+  </article>
+
+</main>
 {{ end }}
