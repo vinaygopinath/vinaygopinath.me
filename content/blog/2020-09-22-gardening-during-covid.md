@@ -15,7 +15,7 @@ I'm alive and well, and I've spent most of this year in Kisumu. I was in Kisumu 
 
 In hindsight, it was a great decision. I took over the office compound, which felt like an island, cut off from the realities and rapidly rising daily statistics of the outside world. The compound also has lots of space, and since I've always harboured ideas of living on a self-sustaining farm one day, I took up gardening.
 
-The first order of business was to eliminate food waste from garbage. [Burning](https://www.standardmedia.co.ke/commentary/article/2001305795/why-we-must-urgently-stop-burning-our-waste) is the dominant method of waste management in Kenya, and it's sadly quite common to see plumes of smoke in the evenings as people set their garbage on fire.
+The first order of business was to eliminate food waste from garbage. [Burning](https://www.standardmedia.co.ke/commentary/article/2001305795/why-we-must-urgently-stop-burning-our-waste) is the predominant method of waste management in Kenya, and it's sadly quite common to see plumes of smoke in the evenings as people set their garbage on fire.
 
 I remember reading about compost circles (but I can't seem to find any reference to it online!) and decided to use one for composting. A compost circle is a circle that's about half or one-foot deep (depending on the amount of food waste your household produces) that you fill with your food waste. If the circle is big enough, it should take you about 6 weeks to complete a full circle, by which time the first section of the circle should have turned into fresh compost. It's a great, continuous source of compost for your plants
 

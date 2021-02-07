@@ -1,0 +1,31 @@
+---
+title: "Hey Kisumu, clean up your air!"
+description: "Ideas to improve air quality in Kisumu by preventing garbage burning"
+date: 2021-02-07T20:09:12+03:00
+categories: ["everything-else"]
+tags: ["Kisumu", "COVID"]
+---
+
+Kisumu is undergoing a major transformation - Preparing to host the Africities summit in <strike>November 2021</strike> April 2022, the county government has been setting up public infrastructure, building footpaths (with rumours of bike paths! 😍), the construction of a new market complex (although the [demolition of open-air markets](https://www.kenyans.co.ke/news/58737-governor-gives-10000-traders-notice-vacate-public-land) before the launch of the new market has not gone down well with small-scale traders already hit hard by COVID) and even the revival of a colonial-era [railway line](https://www.standardmedia.co.ke/nyanza/article/2001399706/plans-to-revive-kisumu-railway-line-gather-pace). I'm excited to see what the city will look like later this year!
+
+### The air pollution problem
+Kisumu's air quality has gone completely unnoticed in this effort to "upgrade" the city. As I write this, [Kisumu's air quality index](https://www.airnow.gov/aqi/aqi-basics/) is hovering at 99, considered poor in most parts of the world. I wish I had known when I was moving into an apartment building that with the nice views of the hills in the distance, I'd also have to deal with the noxious fumes of burning garbage from nearby compounds burning dry leaves, or a few days' worth of food, plastic and other waste. Running to the windows and closing them shut at the first whiff of burning garbage has become an unfortunate necessity. I've noticed I wake up with a sore throat or stuffy nose if I leave the bedroom window open all night.
+
+Burning is the predominant form of waste management in Kenya, and notwithstanding [National Environment Management Authority's claim](https://www.nema.go.ke/index.php?option=com_content&view=article&id=8&Itemid=114) that burning of waste must be undertaken in a licenced incinerator, dumping garbage in a heap (either in a designated corner within one's own compound or in a public field) and setting fire to it is a common sight in the evenings (Not wanting to breathe in the fumes is my current excuse for giving up on running in the evenings). It's not much better using a garbage collection service - The building uses one, and chatting with the garbage collector, I found out that the collected garbage does not undergo segregation of any kind and all of it is burnt (I have no reason to think he meant incinerated and not just burnt in an open field on the outskirts of town).
+
+At a time when WHO estimates that [7 million people die every year due to air pollution](https://www.who.int/airpollution/infographics/Air-pollution-INFOGRAPHICS-English-1.1200px.jpg), of which 1 million are from the African continent, it doesn't seem to me like there's a national conversation on air pollution. The adverse [effects of ambient air pollution](https://academic.oup.com/bmb/article/68/1/143/421247) are well established, and I think Kisumu has a great opportunity to address the pollution issue as the city continues to grow.
+
+### Reality
+According to the City of Kisumu's own [Kisumu Integrated Solid Waste Management Plan (KISWaMP) strategy document (PDF)](https://www.kisumu.go.ke/wp-content/uploads/2019/08/Updated-KISWAMP-Feb-2018-.pdf), garbage collection rates are abysmal - In a city that produces 385 tons of waste every day, only 25% is effectively collected. The figures are worse for household waste - Only 3.1% of household waste is collected for garbage disposal. While the strategy document defines lofty goals for 2020 and 2030 including planning ahead for the growth of the city and decommissioning the [Kachok dumpsite](https://www.standardmedia.co.ke/nyanza/article/2001355809/riddle-of-kachok-dumpsite-as-heaps-of-garbage-re-emerge), its implementation is far from reality.
+
+
+### Proposed solution
+With a little financial help from international partners, I think Kisumu county could set up its own **free** citywide garbage collection service. On its own, or with the help of community based organisations and nonprofits, the county administration can widen access to proper garbage disposal to all parts of the city. The strategy document reveals willingness to use a disposal service and to learn segregation methods, which can be taught through community outreach programs.
+
+Given that [65 - 70% of waste in Kisumu is estimated to be decomposable, organic materials](https://link.springer.com/article/10.1007/s12132-017-9316-1), composting would significantly reduce the volume of garbage to be processed and transported to incinerators or landfills.
+
+Why?
+* Clean air, water and soil: Improvement in the air quality, and reduction in the pollutants in the water (due to open dumping in the lake) and leachates in the soil would lead to better health outcomes and a lower healthcare expenditure burden on the county government over time.
+* Employment: 41% of people aged between 18 and 34 in Kisumu were unemployed, according to the [2019 census data](https://www.businessdailyafrica.com/bd/economy/nyeri-and-embu-top-list-of-counties-with-lowest-unemployment-rates-2281860). That was _before_ COVID, so I can't imagine how dire the situation must be nowadays (A few months ago, I saw about forty people queueing outside an office to apply for a security guard position!). Setting up a new waste management program, or supporting community based organisations in various estates/settlements of Kisumu could [create hundreds of jobs](https://www.myclimate.org/information/carbon-offset-projects/detail-carbon-offset-projects/kenya-waste-management-7190/)!
+* Fertilizer: Compost is a great fertilizer. Composting organic waste and selling the compost to farmers at a nominal rate and conducting programs to increase awareness of compost use would be a self-sustaining source of revenue for the county's garbage collection service and hopefully lead to better yield for farmers?
+* Aesthetically pleasing: Assuming improved access leads to a reduction in illegal dumping of waste in public fields, trenches and highways, Kisumu would be able to position itself as a clean, progressive city with a long-term vision.
