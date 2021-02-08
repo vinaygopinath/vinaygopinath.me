@@ -28,6 +28,8 @@
   --max-laptop-width: 1366px;
 
   --max-large-device-width: 1367px;
+  --line-height-desktop: 1.6;
+  --line-height-mobile: 1.5;
 }
 
 body {
@@ -45,7 +47,7 @@ body {
 
 article p {
   font-size: 1.25rem;
-  line-height: 1.6;
+  line-height: var(--line-height-desktop);
   margin: 0;
   font-weight: 400;
 }
@@ -72,8 +74,7 @@ article h4 {
 
 article .content li {
   font-size: 1.25rem;
-  line-height: 1.6;
-  text-align: justify;
+  line-height: var(--line-height-desktop);
   margin: 0 0 .5rem 0;
   font-weight: 400;
 }
@@ -131,7 +132,11 @@ article .timestamp {
   }
 
   article p {
-    line-height: 1.5;
+    line-height: var(--line-height-mobile);
+  }
+
+  article .content li {
+    line-height: var(--line-height-mobile);
   }
 }
 
