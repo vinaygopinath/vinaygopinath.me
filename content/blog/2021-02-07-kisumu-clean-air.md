@@ -19,7 +19,7 @@ At a time when WHO estimates that [7 million people die every year due to air po
 According to the City of Kisumu's own [Kisumu Integrated Solid Waste Management Plan (KISWaMP) strategy document (PDF)](https://www.kisumu.go.ke/wp-content/uploads/2019/08/Updated-KISWAMP-Feb-2018-.pdf), garbage collection rates are abysmal - In a city that produces 385 tons of waste every day, only 25% is effectively collected. The figures are worse for household waste - Only 3.1% of household waste is collected for garbage disposal. While the strategy document defines lofty goals for 2020 and 2030 including planning ahead for the growth of the city and decommissioning the [Kachok dumpsite](https://www.standardmedia.co.ke/nyanza/article/2001355809/riddle-of-kachok-dumpsite-as-heaps-of-garbage-re-emerge), its implementation is far from reality.
 
 
-### Proposed solution
+### Here's an idea
 With a little financial help from international partners, I think Kisumu county could set up its own **free** citywide garbage collection service. On its own, or with the help of community based organisations and nonprofits, the county administration can widen access to proper garbage disposal to all parts of the city. The strategy document reveals willingness to use a disposal service and to learn segregation methods, which can be taught through community outreach programs.
 
 Given that [65 - 70% of waste in Kisumu is estimated to be decomposable, organic materials](https://link.springer.com/article/10.1007/s12132-017-9316-1), composting would significantly reduce the volume of garbage to be processed and transported to incinerators or landfills.
