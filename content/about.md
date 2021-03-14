@@ -3,10 +3,21 @@ title: "About"
 date: 2018-01-14T19:27:54+05:30
 ---
 
-### Hi, I’m Vinay
+### Hi, I'm Vinay
 
-I’ve been hooked on writing code ever since I wrote a *Who wants to be a millionaire?/Kaun Banega Crorepati* clone in QBasic as a nerdy 11 year old. During my university years, I tinkered with Android, an emerging platform at the time (2009!), and worked as an Android developer at a startup in my “hometown”, Bangalore.
+I first discovered writing code at age 11 thanks to a school program. I started off with HTML and QBasic, and building a text-based clone of _Kaun Banega Crorepati/Who wants to be a millionaire?_ on my own (with a lot of GOTO statements 😅) gave me a huge rush. Over the years, I've had full-stack and mobile engineer roles at several startups and contractor positions as a digital nomad, interspersed with organic farming in Israel, teaching English in Omsk, Russia, and a stint as a tech volunteer at [Payir](https://payir.org) in Tamil Nadu, India.
 
-Around the time, I caught the travel bug, which took me to Omsk, Russia as a volunteer English teacher. I discovered the term “digital nomad” just as I began to take freelance + remote frontend/full-stack web jobs and tried my hand as a farmer in the Negev desert in Israel, travelled across Sri Lanka, hosted lots of Couchsurfers in Pokhara, Nepal, volunteered at [Payir](http://payir.org), in a remote village in Tamil Nadu, and moved seven times in two years within Poland with a single suitcase of belongings.
+Thanks in large part to my time among the dedicated folks at Payir, I've come to recognise the privilege I enjoy as a cis-gendered, middle-class, English-speaking, urban tech worker, and I'm trying to put my skills to use for underprivileged communities. I'm interested in the intersection of technology and social change in the form of improved healthcare, access to education, addressing climate change, rights awareness, community building, and civic action. At present, I am the Android team lead at [Maisha Meds](https://maishameds.org/).
 
-In recent years, thanks in large part to my time among the dedicated folks at Payir, I’ve come to terms with the privilege I enjoy as a middle-class, urban, tech worker and I'm trying to put it to use for underprivileged communities by working in a tech role for a social enterprise or non-profit addressing rural empowerment, poverty alleviation, or access to healthcare, education or employment opportunities.
+Talk to me about
+* LGBTQ rights and services
+* Slow travel and cycling
+* Climate change, climate inequality and renewable energy
+* Ecological farming
+* Mental health initiatives
+* Minimalism and anti-consumption
+* Eurocentrism, internationalization and regional language support
+* Sexual violence, gender roles and gender equality
+* Religiosity and social philosophy
+
+Feel free to reach out if you'd like to discuss a project or idea, or just to say hi! I'm available at `vinay @ domain name`.
