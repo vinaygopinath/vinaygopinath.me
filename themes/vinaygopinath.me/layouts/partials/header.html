@@ -17,9 +17,9 @@
     <meta name="og:description" content="{{.Page.Params.description | default .Site.Params.description}}">
     <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}" />
     {{- with .OutputFormats.Get "rss" -}}
-      {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{- end -}}
-    <link rel="canonical" href="{{ .Page.URL | absURL }}">
+    <link rel="canonical" href="{{ .Page.Permalink | absURL }}">
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/icons/apple-touch-icon-57x57.png" />
