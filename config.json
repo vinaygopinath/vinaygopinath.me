@@ -21,7 +21,7 @@
     }
    },
   "params": {
-    "description": "Full-stack developer and digital nomad aspiring to work on technology for social good"
+    "description": "Personal notes and experiences of technology, society, travel and farming"
   },
   "permalinks": {
     "blog": "/:year/:month/:title/"
